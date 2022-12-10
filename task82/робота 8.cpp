@@ -15,7 +15,7 @@ double func1(double x)
     }
     else
     {
-        return 1000;
+        return 10000;
     }
 }
 double func2(double x, double y)
@@ -26,7 +26,7 @@ double func2(double x, double y)
     }
     else
     {
-        return 1000;
+        return 10000;
     }
 }
 double func3(double a, double b)
@@ -40,7 +40,7 @@ int main()
     cin >> X;
     cout << "Input y\n";
     cin >> Y;
-    if ((func1(X) - 1000 == 0) || (func2(X, Y) - 1000 == 0))
+    if ((func1(X) - 10000 == 0) || (func2(X, Y) - 10000 == 0))
     {
         cout << "Wrong input" << endl;
     }
